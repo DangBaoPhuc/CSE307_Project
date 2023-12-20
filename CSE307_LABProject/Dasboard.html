@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> The Anime World </title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bx-menu'></i>
+      <span class="logo_name">AnimeWorld</span>
+
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="Dasboard.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Products</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection'></i>
+            <span class="link_name">Products</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Products</a></li>
+          <li><a href="AnimeFilm.html">Anime</a></li>
+          <li><a href="AnimePicture.html">Picture</a></li>
+          <li><a href="Figures.html">Figures</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <div>
+
+        <h1 style="color: red;">Hightlights Film </h1>
+
+      </div>
+      <!-- Click on the moving pictures to see the film -->
+      <marquee direction="ltr" scrollamount="10" onMouseMove="stop()" onMouseOut="start()">
+        <p><a href="https://animehay.city/xem-phim/grappler-baki-tap-1-20997.html"><img src="img/baki.jfif
+          " width="200PX" height="200PX" alt="Couldn't load">
+          </a>
+          <a href="https://animehay.city/thong-tin-phim/highschool-of-the-dead-714.html"><img src="img/dead.jfif"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/dr-stone-stone-wars-3171.html"><img src="img/drstrange.jpg"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/inuyasha-713.html"><img src="img/inyasha.jfif"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/tokyo-ghoul-re-2488.html"><img src="img/kanekiken.jpg"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/tate-no-yuusha-no-nariagari-2720.html"><img src="img/khien.jfif"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/one-piece-34.html"><img src="img/onepiece.jfif"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/overlord-14.html"><img src="img/overflord.jpg"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/shokugeki-no-souma-202.html"><img src="img/shokugeki.jfif"
+              alt="Couldn't load" width="200" height="200PX"></a>
+          <a href="https://animehay.city/thong-tin-phim/violet-evergarden-2422.html"><img src="img/violet.jpg"
+              alt="Couldn't load" width="200" height="200PX"></a>
+
+        </p>
+      </marquee>
+
+      <div id="bodyDashboard">
+        <h2>Welcome to The Anime World</h2>
+        <p><img src="img/tonton-tonton-sticker.gif" alt="Couldn load"></p>
+      </div>
+
+
+
+    </div>
+
+  </section>
+  <div class="footer">
+    <div class="column">
+      <h2>Contact us</h2>
+      <p> <a href="https://www.facebook.com/eiuvietnam"><img src="img/facebook.png" alt="FaceBookPicture"> EIU
+          facebook</a></p>
+      <p class="bx bx-message-detail">
+        Gmail: <b style="color: firebrick;">phuc.dang.cit21@eiu.edu.vn</b></p>
+      <p>Phone Number: 0353213506</p>
+    </div>
+    <div class="column">
+      <h2>Address</h2>
+      <button onclick="topFunction()" id="Btn"><img src="img/arrow-up.png" alt="Up to the top"></button>
+      <p>
+        Nam Kỳ Khởi Nghĩa, Định Hoà, Thủ Dầu Một, Bình Dương, Vietnam
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.807998174801!2d106.66359397457818!3d11.053017354031946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d1d7df763eaf%3A0xf4323e44f2867057!2zxJDhuqFpIGjhu41jIFF14buRYyB04bq_IE1p4buBbiDEkMO0bmc!5e0!3m2!1svi!2s!4v1702816061524!5m2!1svi!2s"
+          width="50%" height="50%" style="border:1;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
